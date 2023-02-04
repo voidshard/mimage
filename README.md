@@ -65,7 +65,7 @@ Simple example
     // flush changes to disk
     im.Flush()
 ```
-Note the final Flush() call; after Do() completes any image chunks not currently being used will be written out eventually, but Flush() ensure this has happened.
+Note the final Flush() call; after Do() completes any image chunks not currently being used will be written out eventually, but Flush() ensures this has happened.
 
 In addition to these, the mimage struct itself provides some hopefully helpful functions
 ```golang
